@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+    http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.eclipselabs</groupId>
+		<artifactId>cdo-maven</artifactId>
+		<version>4.3.0</version>
+	</parent>
+
+	<artifactId>net4j.h2</artifactId>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>net4j.h2.p2</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>net4j.h2.p2</artifactId>
+			<version>${project.version}</version>
+			<classifier>repackaged</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>net4j</artifactId>
+			<version>${project.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>${h2Version}</version>
+		</dependency>
+	</dependencies>
+
+</project>

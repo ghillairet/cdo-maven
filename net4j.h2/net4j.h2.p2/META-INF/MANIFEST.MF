@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: NET4J H2
+Bundle-SymbolicName: net4j.h2.p2
+Bundle-Version: 4.3.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.net4j.db.h2;bundle-version="4.2.100"

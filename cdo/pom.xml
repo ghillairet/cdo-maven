@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+    http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.eclipselabs</groupId>
+		<artifactId>cdo-maven</artifactId>
+		<version>4.3.0</version>
+	</parent>
+	<artifactId>cdo</artifactId>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>cdo.p2</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>cdo.p2</artifactId>
+			<version>${project.version}</version>
+			<classifier>repackaged</classifier>
+		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.eclipselabs</groupId> -->
+<!-- 			<artifactId>net4j.p2</artifactId> -->
+<!-- 			<version>${project.version}</version> -->
+<!-- 			<classifier>repackaged</classifier> -->
+<!-- 		</dependency> -->
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>net4j</artifactId>
+			<version>${project.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.birt.runtime</groupId>
+			<artifactId>org.eclipse.emf.ecore</artifactId>
+			<version>${emfVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.birt.runtime</groupId>
+			<artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+			<version>${emfVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.birt.runtime</groupId>
+			<artifactId>org.eclipse.emf.common</artifactId>
+			<version>${emfVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.birt.runtime</groupId>
+			<artifactId>org.eclipse.emf.ecore.change</artifactId>
+			<version>${emfVersion}</version>
+		</dependency>
+	</dependencies>
+
+</project>
