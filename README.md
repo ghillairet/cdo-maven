@@ -1,5 +1,4 @@
 ##Maven distribution for Eclipse CDO
-===
 
 ###Usage
 
