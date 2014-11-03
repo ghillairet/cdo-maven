@@ -12,10 +12,6 @@
 	<artifactId>net4j.h2</artifactId>
 	<packaging>pom</packaging>
 
-	<modules>
-		<module>net4j.h2.p2</module>
-	</modules>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.eclipselabs</groupId>

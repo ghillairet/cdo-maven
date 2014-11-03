@@ -41,6 +41,9 @@
 	</scm>
 
 	<modules>
+		<module>net4j/net4j.p2</module>
+		<module>net4j.h2/net4j.h2.p2</module>
+		<module>cdo/cdo.p2</module>
 		<module>net4j</module>
 		<module>net4j.h2</module>
 		<module>cdo</module>

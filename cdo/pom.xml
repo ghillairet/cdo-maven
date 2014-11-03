@@ -11,10 +11,6 @@
 	<artifactId>cdo</artifactId>
 	<packaging>pom</packaging>
 
-	<modules>
-		<module>cdo.p2</module>
-	</modules>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.eclipselabs</groupId>

@@ -11,10 +11,6 @@
 	<artifactId>net4j</artifactId>
 	<packaging>pom</packaging>
 
-	<modules>
-		<module>net4j.p2</module>
-	</modules>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.eclipselabs</groupId>
