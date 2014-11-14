@@ -21,6 +21,11 @@
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/luna/</url>
 		</repository>
+		<repository>
+			<id>cdo</id>
+			<layout>p2</layout>
+			<url>${update.site.url}</url>
+		</repository>
 	</repositories>
 
 	<build>

@@ -43,15 +43,22 @@
 	<modules>
 		<module>net4j/net4j.p2</module>
 		<module>net4j.h2/net4j.h2.p2</module>
+		<module>net4j.mysql/net4j.mysql.p2</module>
+		<module>net4j.postgresql/net4j.postgresql.p2</module>
+		<module>net4j.jvm/net4j.jvm.p2</module>
 		<module>cdo/cdo.p2</module>
 		<module>net4j</module>
 		<module>net4j.h2</module>
+		<module>net4j.mysql</module>
+		<module>net4j.postgresql</module>
+		<module>net4j.jvm</module>
 		<module>cdo</module>
 	</modules>
 
 	<properties>
 		<emfVersion>2.10.0.v20140514-1158</emfVersion>
 		<h2Version>1.4.180</h2Version>
+		<update.site.url>http://download.eclipse.org/modeling/emf/cdo/updates/integration/stable</update.site.url>
 	</properties>
 
 </project>
