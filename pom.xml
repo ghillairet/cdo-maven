@@ -4,7 +4,7 @@
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>cdo-maven</artifactId>
 	<packaging>pom</packaging>
-	<version>4.3.1-SNAPSHOT</version>
+	<version>4.4.0-SNAPSHOT</version>
 
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
@@ -56,7 +56,8 @@
 	<properties>
 		<emfVersion>2.10.1</emfVersion>
 		<h2Version>1.4.180</h2Version>
-		<update.site.url>http://download.eclipse.org/modeling/emf/cdo/drops/S20140603-1448</update.site.url>
+		<tychoVersion>0.20.0</tychoVersion>
+		<update.site.url>http://download.eclipse.org/modeling/emf/cdo/updates/releases/4.4/</update.site.url>
 	</properties>
 
 </project>

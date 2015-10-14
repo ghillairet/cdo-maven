@@ -1,6 +1,6 @@
-##Maven distribution for Eclipse CDO
+# Maven distribution for Eclipse CDO
 
-###Usage
+## Build
 
 You can build it yourself with following command inside the cdo-maven folder:
 
@@ -8,13 +8,15 @@ You can build it yourself with following command inside the cdo-maven folder:
 $ mvn clean install
 ```
 
+## Usage
+
 You can now use choose which cdo dependencies you want to use in your maven project.
 
 ```xml
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>cdo</artifactId>
-	<version>4.3.0</version>
+	<version>4.4.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -23,7 +25,7 @@ You can now use choose which cdo dependencies you want to use in your maven proj
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.h2</artifactId>
-	<version>4.3.0</version>
+	<version>4.4.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -32,7 +34,7 @@ You can now use choose which cdo dependencies you want to use in your maven proj
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.mysql</artifactId>
-	<version>4.3.0</version>
+	<version>4.4.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -41,7 +43,7 @@ You can now use choose which cdo dependencies you want to use in your maven proj
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.postgresql</artifactId>
-	<version>4.3.0</version>
+	<version>4.4.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -50,7 +52,7 @@ You can now use choose which cdo dependencies you want to use in your maven proj
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.jvm</artifactId>
-	<version>4.3.0</version>
+	<version>4.4.0</version>
 	<type>pom</type>
 </dependency>
 ```

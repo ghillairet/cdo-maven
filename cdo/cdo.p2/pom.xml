@@ -8,15 +8,15 @@
 	<parent>
 		<groupId>org.eclipselabs</groupId>
 		<artifactId>cdo-maven</artifactId>
-		<version>4.3.1-SNAPSHOT</version>
+		<version>4.4.0-SNAPSHOT</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
 
 	<repositories>
 		<repository>
-			<id>luna</id>
+			<id>mars</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/luna/</url>
+			<url>http://download.eclipse.org/releases/mars/</url>
 		</repository>
 		<repository>
 			<id>cdo</id>
@@ -30,14 +30,14 @@
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
-				<version>0.20.0</version>
+				<version>${tychoVersion}</version>
 				<extensions>true</extensions>
 			</plugin>
 
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-source-plugin</artifactId>
-				<version>0.20.0</version>
+				<version>${tychoVersion}</version>
 				<executions>
 					<execution>
 						<id>plugin-source</id>
