@@ -1,40 +1,9 @@
 # Maven distribution for Eclipse CDO
 
-## Build steps
+This repository contains the maven files necessary to build and release Eclipse [CDO](http://wiki.eclipse.org/CDO) onto maven central or 
+to simply build it on your machine.
 
-### Versioning
-
-When building you should first make sure that the pom and manifest versions are compatible.
-
-When pom versions end with `-SNAPSHOT`, `Bundle-Version` in al MANIFEST.MF files should end with `.qualifier`.
-When pom versions don't have `-SNAPSHOT`, remove `.qualifier` in MANIFEST files.
-
-### Building
- 
-You can build it yourself with following command inside the cdo-maven folder:
-
-```
-$ mvn clean install
-```
-
-### Releasing
-
-> Only for contributors.
-
-Before releasing on maven central, make sure that pom versions end with `-SNAPSHOT` and 
-MANIFEST versions <i>do not end</i> with `.qualifier`, but have the correct release version number.
-
-To release on maven central.
-
-```
-mvn release:clean release:prepare
-```
-
-follow by
-
-```
-mvn release:perform
-```
+You can find the builds on maven central [here](http://search.maven.org/#search|ga|1|g%3A%22org.eclipselabs%22%20AND%20%28a%3Acdo.*%20OR%20a%3Anet4j.*%29).
 
 ## Usage
 
@@ -83,4 +52,40 @@ You can now use choose which cdo dependencies you want to use in your maven proj
 	<version>4.4.0</version>
 	<type>pom</type>
 </dependency>
+```
+
+## Build steps
+
+### Versioning
+
+When building you should first make sure that the pom and manifest versions are compatible.
+
+When pom versions end with `-SNAPSHOT`, `Bundle-Version` in al MANIFEST.MF files should end with `.qualifier`.
+When pom versions don't have `-SNAPSHOT`, remove `.qualifier` in MANIFEST files.
+
+### Building
+ 
+You can build it yourself with following command inside the cdo-maven folder:
+
+```
+$ mvn clean install
+```
+
+### Releasing
+
+> Only for contributors.
+
+Before releasing on maven central, make sure that pom versions end with `-SNAPSHOT` and 
+MANIFEST versions <i>do not end</i> with `.qualifier`, but have the correct release version number.
+
+To release on maven central.
+
+```
+mvn release:clean release:prepare
+```
+
+follow by
+
+```
+mvn release:perform
 ```
