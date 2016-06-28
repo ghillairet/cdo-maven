@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CDO Hibernate
+Bundle-SymbolicName: cdo.hibernate.p2
+Bundle-Version: 4.5.0.qualifier
+Require-Bundle: org.eclipse.emf.cdo.server.hibernate,
+ org.eclipse.emf.cdo.server.hibernate.teneo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

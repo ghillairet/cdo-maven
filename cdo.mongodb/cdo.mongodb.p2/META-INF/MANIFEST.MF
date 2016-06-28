@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CDO MongoDB
+Bundle-SymbolicName: cdo.mongodb.p2
+Bundle-Version: 4.5.0.qualifier
+Require-Bundle: org.eclipse.emf.cdo.server.mongodb
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

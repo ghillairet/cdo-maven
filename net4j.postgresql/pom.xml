@@ -1,28 +1,34 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.eclipselabs</groupId>
-		<artifactId>cdo-maven</artifactId>
-		<version>4.4.1-SNAPSHOT</version>
-	</parent>
+    <parent>
+        <groupId>org.eclipselabs</groupId>
+        <artifactId>cdo-maven</artifactId>
+        <version>4.5.0-SNAPSHOT</version>
+    </parent>
 
-	<artifactId>net4j.postgresql</artifactId>
-	<packaging>pom</packaging>
+    <artifactId>net4j.postgresql</artifactId>
+    <packaging>pom</packaging>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.eclipselabs</groupId>
-			<artifactId>net4j.postgresql.p2</artifactId>
-			<version>${project.version}</version>
-			<classifier>repackaged</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipselabs</groupId>
-			<artifactId>net4j</artifactId>
-			<version>${project.version}</version>
-			<type>pom</type>
-		</dependency>
-	</dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipselabs</groupId>
+            <artifactId>net4j.postgresql.p2</artifactId>
+            <version>${project.version}</version>
+            <classifier>repackaged</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipselabs</groupId>
+            <artifactId>net4j</artifactId>
+            <version>${project.version}</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4.1208.jre7</version>
+        </dependency>
+    </dependencies>
 
 </project>

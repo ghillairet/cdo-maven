@@ -1,47 +1,48 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.eclipselabs</groupId>
-		<artifactId>cdo-maven</artifactId>
-		<version>4.4.1-SNAPSHOT</version>
-	</parent>
-	<artifactId>cdo</artifactId>
-	<packaging>pom</packaging>
+    <parent>
+        <groupId>org.eclipselabs</groupId>
+        <artifactId>cdo-maven</artifactId>
+        <version>4.5.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>cdo</artifactId>
+    <packaging>pom</packaging>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.eclipselabs</groupId>
-			<artifactId>cdo.p2</artifactId>
-			<version>${project.version}</version>
-			<classifier>repackaged</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipselabs</groupId>
-			<artifactId>net4j</artifactId>
-			<version>${project.version}</version>
-			<type>pom</type>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.emf</groupId>
-			<artifactId>org.eclipse.emf.ecore</artifactId>
-			<version>${emfVersion}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.emf</groupId>
-			<artifactId>org.eclipse.emf.ecore.xmi</artifactId>
-			<version>${emfVersion}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.emf</groupId>
-			<artifactId>org.eclipse.emf.common</artifactId>
-			<version>${emfVersion}</version>
-		</dependency>
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipselabs</groupId>
+            <artifactId>cdo.p2</artifactId>
+            <version>${project.version}</version>
+            <classifier>repackaged</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipselabs</groupId>
+            <artifactId>net4j</artifactId>
+            <version>${project.version}</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.emf</groupId>
+            <artifactId>org.eclipse.emf.ecore</artifactId>
+            <version>${emfVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.emf</groupId>
+            <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+            <version>${emfVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.emf</groupId>
+            <artifactId>org.eclipse.emf.common</artifactId>
+            <version>${emf-common-version}</version>
+        </dependency>
         <dependency>
             <groupId>org.eclipse.birt.runtime</groupId>
             <artifactId>org.eclipse.emf.ecore.change</artifactId>
             <version>2.10.0.v20140901-1043</version>
         </dependency>
-	</dependencies>
+    </dependencies>
 
 </project>

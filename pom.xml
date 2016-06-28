@@ -1,63 +1,92 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.eclipselabs</groupId>
-	<artifactId>cdo-maven</artifactId>
-	<packaging>pom</packaging>
-	<version>4.4.1-SNAPSHOT</version>
+    <groupId>org.eclipselabs</groupId>
+    <artifactId>cdo-maven</artifactId>
+    <packaging>pom</packaging>
+    <version>4.5.0-SNAPSHOT</version>
 
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>7</version>
-	</parent>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
 
-	<licenses>
-		<license>
-			<name>EPL</name>
-			<url>www.eclipse.org/legal/epl-v10.html</url>
-		</license>
-	</licenses>
+    <licenses>
+        <license>
+            <name>EPL</name>
+            <url>www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+    </licenses>
 
-	<issueManagement>
-		<system>GitHub Issues</system>
-		<url>https://github.com/ghillairet/cdo-maven/issues</url>
-	</issueManagement>
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/ghillairet/cdo-maven/issues</url>
+    </issueManagement>
 
-	<developers>
-		<developer>
-			<id>ghillairet</id>
-			<name>G. Hillairet</name>
-			<email>g.hillairet@gmail.com</email>
-		</developer>
-	</developers>
+    <developers>
+        <developer>
+            <id>ghillairet</id>
+            <name>G. Hillairet</name>
+            <email>g.hillairet@gmail.com</email>
+        </developer>
+    </developers>
 
-	<scm>
-		<url>scm:git:git@github.com:ghillairet/cdo-maven.git</url>
-		<connection>scm:git:git@github.com:ghillairet/cdo-maven.git</connection>
-		<developerConnection>scm:git:git@github.com:ghillairet/cdo-maven.git</developerConnection>
-	</scm>
+    <scm>
+        <url>scm:git:git@github.com:ghillairet/cdo-maven.git</url>
+        <connection>scm:git:git@github.com:ghillairet/cdo-maven.git</connection>
+        <developerConnection>scm:git:git@github.com:ghillairet/cdo-maven.git</developerConnection>
+    </scm>
 
-	<modules>
-		<module>net4j/net4j.p2</module>
-		<module>net4j.h2/net4j.h2.p2</module>
-		<module>net4j.mysql/net4j.mysql.p2</module>
-		<module>net4j.postgresql/net4j.postgresql.p2</module>
-		<module>net4j.jvm/net4j.jvm.p2</module>
-		<module>cdo/cdo.p2</module>
-		<module>net4j</module>
-		<module>net4j.h2</module>
-		<module>net4j.mysql</module>
-		<module>net4j.postgresql</module>
-		<module>net4j.jvm</module>
-		<module>cdo</module>
-	</modules>
+    <modules>
+        <module>net4j/net4j.p2</module>
+        <module>net4j.h2/net4j.h2.p2</module>
+        <module>net4j.mysql/net4j.mysql.p2</module>
+        <module>net4j.postgresql/net4j.postgresql.p2</module>
+        <module>net4j.jvm/net4j.jvm.p2</module>
+        <module>cdo/cdo.p2</module>
+        <module>cdo.hibernate/cdo.hibernate.p2</module>
+        <module>cdo.mongodb/cdo.mongodb.p2</module>
+        <module>net4j</module>
+        <module>net4j.h2</module>
+        <module>net4j.mysql</module>
+        <module>net4j.postgresql</module>
+        <module>net4j.jvm</module>
+        <module>cdo</module>
+        <module>cdo.hibernate</module>
+        <module>cdo.mongodb</module>
+    </modules>
 
-	<properties>
-		<emfVersion>2.10.1</emfVersion>
-		<h2Version>1.4.180</h2Version>
-		<tychoVersion>0.20.0</tychoVersion>
-		<update.site.url>http://download.eclipse.org/modeling/emf/cdo/updates/releases/4.4/</update.site.url>
-	</properties>
+    <repositories>
+        <repository>
+            <id>neon</id>
+            <layout>p2</layout>
+            <url>http://download.eclipse.org/releases/neon/</url>
+        </repository>
+        <repository>
+            <id>cdo</id>
+            <layout>p2</layout>
+            <url>${update.site.url}</url>
+        </repository>
+        <repository>
+            <id>teneo</id>
+            <layout>p2</layout>
+            <url>http://download.eclipse.org/modeling/emf/teneo/updates/2.1.0/interim/</url>
+        </repository>
+        <repository>
+            <id>tools</id>
+            <layout>p2</layout>
+            <url>http://www.elver.org/eclipse/2.1.0/update/</url>
+        </repository>
+    </repositories>
+
+    <properties>
+        <emfVersion>2.11.1-v20150805-0538</emfVersion>
+        <emf-common-version>2.11.0-v20150805-0538</emf-common-version>
+        <h2Version>1.4.191</h2Version>
+        <tychoVersion>0.20.0</tychoVersion>
+        <update.site.url>http://download.eclipse.org/modeling/emf/cdo/drops/S20160601-1307</update.site.url>
+    </properties>
 
 </project>

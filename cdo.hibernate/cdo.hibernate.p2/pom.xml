@@ -1,8 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>net4j.p2</artifactId>
+    <artifactId>cdo.hibernate.p2</artifactId>
     <packaging>eclipse-plugin</packaging>
 
     <parent>
@@ -49,12 +50,12 @@
                             <outputDirectory>${project.build.directory}/dependency</outputDirectory>
                             <overWriteReleases>false</overWriteReleases>
                             <overWriteSnapshots>true</overWriteSnapshots>
-                            <excludeTransitive>true</excludeTransitive>
                             <excludeArtifactIds>
                                 org.eclipse.emf.ecore,
                                 org.eclipse.emf.common,
                                 org.eclipse.emf.ecore.xmi,
-                                org.eclipse.emf.ecore.change
+                                org.eclipse.emf.ecore.change,
+                                org.h2
                             </excludeArtifactIds>
                         </configuration>
                     </execution>
