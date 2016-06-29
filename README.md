@@ -9,47 +9,81 @@ You can find the builds on maven central [here](http://search.maven.org/#search|
 
 You can now use choose which cdo dependencies you want to use in your maven project.
 
+### CDO
+
 ```xml
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>cdo</artifactId>
-	<version>4.4.0</version>
+	<version>4.5.0-SNAPSHOT</version>
 	<type>pom</type>
 </dependency>
 ```
+
+### Net4J
+
+```xml
+<dependency>
+	<groupId>org.eclipselabs</groupId>
+	<artifactId>net4j</artifactId>
+	<version>4.5.0-SNAPSHOT</version>
+	<type>pom</type>
+</dependency>
+```
+
+### DB Stores
+
+H2
 
 ```xml
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.h2</artifactId>
-	<version>4.4.0</version>
+	<version>4.5.0-SNAPSHOT</version>
 	<type>pom</type>
 </dependency>
 ```
+
+MySQL
 
 ```xml
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.mysql</artifactId>
-	<version>4.4.0</version>
+	<version>4.5.0-SNAPSHOT</version>
 	<type>pom</type>
 </dependency>
 ```
+
+PostgreSQL
 
 ```xml
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.postgresql</artifactId>
-	<version>4.4.0</version>
+	<version>4.5.0-SNAPSHOT</version>
 	<type>pom</type>
 </dependency>
 ```
 
+### CDO Hibernate
+
 ```xml
 <dependency>
 	<groupId>org.eclipselabs</groupId>
-	<artifactId>net4j.jvm</artifactId>
-	<version>4.4.0</version>
+	<artifactId>cdo.hibernate</artifactId>
+	<version>4.5.0-SNAPSHOT</version>
+	<type>pom</type>
+</dependency>
+```
+
+### CDO MongoDB
+
+```xml
+<dependency>
+	<groupId>org.eclipselabs</groupId>
+	<artifactId>cdo.mongodb</artifactId>
+	<version>4.5.0-SNAPSHOT</version>
 	<type>pom</type>
 </dependency>
 ```

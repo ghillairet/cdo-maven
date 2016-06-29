@@ -55,7 +55,8 @@
                                 org.eclipse.emf.common,
                                 org.eclipse.emf.ecore.xmi,
                                 org.eclipse.emf.ecore.change,
-                                com.mongodb
+                                org.mongodb,
+                                org.bson
                             </excludeArtifactIds>
                         </configuration>
                     </execution>

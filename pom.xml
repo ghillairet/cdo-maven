@@ -44,7 +44,6 @@
         <module>net4j.h2/net4j.h2.p2</module>
         <module>net4j.mysql/net4j.mysql.p2</module>
         <module>net4j.postgresql/net4j.postgresql.p2</module>
-        <module>net4j.jvm/net4j.jvm.p2</module>
         <module>cdo/cdo.p2</module>
         <module>cdo.hibernate/cdo.hibernate.p2</module>
         <module>cdo.mongodb/cdo.mongodb.p2</module>
@@ -52,7 +51,6 @@
         <module>net4j.h2</module>
         <module>net4j.mysql</module>
         <module>net4j.postgresql</module>
-        <module>net4j.jvm</module>
         <module>cdo</module>
         <module>cdo.hibernate</module>
         <module>cdo.mongodb</module>
@@ -82,6 +80,9 @@
     </repositories>
 
     <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.fork>true</maven.compiler.fork>
         <emfVersion>2.11.1-v20150805-0538</emfVersion>
         <emf-common-version>2.11.0-v20150805-0538</emf-common-version>
         <h2Version>1.4.191</h2Version>

@@ -96,7 +96,7 @@
                                 org.eclipse.net4j.util.registry,
                                 org.eclipse.net4j.util.security,
                                 org.eclipse.net4j.util.transaction,
-                                org.h2
+                                com.mysql
                             </excludeArtifactIds>
                         </configuration>
                     </execution>
