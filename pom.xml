@@ -44,6 +44,7 @@
         <module>net4j.h2/net4j.h2.p2</module>
         <module>net4j.mysql/net4j.mysql.p2</module>
         <module>net4j.postgresql/net4j.postgresql.p2</module>
+        <module>net4j.oracle/net4j.oracle.p2</module>
         <module>cdo/cdo.p2</module>
         <module>cdo.hibernate/cdo.hibernate.p2</module>
         <module>cdo.mongodb/cdo.mongodb.p2</module>
@@ -51,6 +52,7 @@
         <module>net4j.h2</module>
         <module>net4j.mysql</module>
         <module>net4j.postgresql</module>
+        <module>net4j.oracle</module>
         <module>cdo</module>
         <module>cdo.hibernate</module>
         <module>cdo.mongodb</module>
@@ -87,7 +89,7 @@
         <emf-common-version>2.11.0-v20150805-0538</emf-common-version>
         <h2Version>1.4.191</h2Version>
         <tychoVersion>0.20.0</tychoVersion>
-        <update.site.url>http://download.eclipse.org/modeling/emf/cdo/drops/S20160601-1307</update.site.url>
+        <update.site.url>http://download.eclipse.org/modeling/emf/cdo/updates/releases/4.5</update.site.url>
     </properties>
 
 </project>
