@@ -2,12 +2,17 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: NET4J
 Bundle-SymbolicName: net4j.p2
-Bundle-Version: 4.5.0
+Bundle-Version: 4.6.0.v20170210-0100
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: org.eclipse.net4j,
  org.eclipse.net4j.db,
- org.eclipse.net4j.defs,
+ org.eclipse.net4j.db.jdbc,
  org.eclipse.net4j.jvm,
  org.eclipse.net4j.tcp,
- org.eclipse.net4j.util,
- org.eclipse.net4j.util.defs
+ org.eclipse.net4j.http,
+ org.eclipse.net4j.http.common,
+ org.eclipse.net4j.http.server,
+ org.eclipse.net4j.jms,
+ org.eclipse.net4j.jms.api,
+ org.eclipse.net4j.jms.server,
+ org.eclipse.net4j.jms.server.jdbc

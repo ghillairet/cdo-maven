@@ -4,7 +4,7 @@
     <groupId>org.eclipselabs</groupId>
     <artifactId>cdo-maven</artifactId>
     <packaging>pom</packaging>
-    <version>4.6.0-SNAPSHOT</version>
+    <version>4.6.0.v20170210-0100-SNAPSHOT</version>
 
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -59,9 +59,9 @@
 
     <repositories>
         <repository>
-            <id>neon</id>
+            <id>oxygen</id>
             <layout>p2</layout>
-            <url>http://download.eclipse.org/releases/neon/</url>
+            <url>http://download.eclipse.org/releases/oxygen/</url>
         </repository>
         <repository>
             <id>cdo</id>
@@ -88,7 +88,7 @@
         <emf-common-version>2.11.0-v20150805-0538</emf-common-version>
         <h2Version>1.4.191</h2Version>
         <tychoVersion>0.20.0</tychoVersion>
-        <update.site.url>http://download.eclipse.org/modeling/emf/cdo/updates/releases/4.5</update.site.url>
+        <update.site.url>http://download.eclipse.org/modeling/emf/cdo/drops/I20170210-0100</update.site.url>
     </properties>
 
 </project>
