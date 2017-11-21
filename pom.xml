@@ -4,7 +4,7 @@
     <groupId>org.eclipselabs</groupId>
     <artifactId>cdo-maven</artifactId>
     <packaging>pom</packaging>
-    <version>4.6.1.v20170210-0100-SNAPSHOT</version>
+    <version>4.6.2-SNAPSHOT</version>
 
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -84,11 +84,11 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <maven.compiler.fork>true</maven.compiler.fork>
-        <emfVersion>2.11.1-v20150805-0538</emfVersion>
-        <emf-common-version>2.11.0-v20150805-0538</emf-common-version>
+        <emfVersion>2.12.0</emfVersion>
+        <emf-common-version>2.12.0</emf-common-version>
         <h2Version>1.4.191</h2Version>
         <tychoVersion>0.20.0</tychoVersion>
-        <update.site.url>http://download.eclipse.org/modeling/emf/cdo/drops/I20170210-0100</update.site.url>
+        <update.site.url>http://download.eclipse.org/modeling/emf/cdo/drops/R20170614-0227</update.site.url>
     </properties>
 
 </project>

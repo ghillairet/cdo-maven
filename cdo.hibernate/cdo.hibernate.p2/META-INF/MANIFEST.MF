@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: CDO Hibernate
 Bundle-SymbolicName: cdo.hibernate.p2
-Bundle-Version: 4.6.0.v20170210-0100
+Bundle-Version: 4.6.2
 Require-Bundle: org.eclipse.emf.cdo.server.hibernate,
  org.eclipse.emf.cdo.server.hibernate.teneo
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
