@@ -1,0 +1,19 @@
+@GenModel(
+    bundleManifest="false",
+    modelDirectory="xcore-maven-example/src/main/java-gen",
+    complianceLevel="8.0"
+)
+package org.eclipselabs.model
+
+class User {
+    int ^id
+    String name
+    contains Post[] posts
+}
+
+class Post {
+    int ^id
+    String title
+    Date created
+    String content
+}
