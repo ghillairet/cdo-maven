@@ -15,7 +15,7 @@ You can now use choose which cdo dependencies you want to use in your maven proj
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>cdo</artifactId>
-	<version>4.6.2</version>
+	<version>4.7.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -26,7 +26,7 @@ You can now use choose which cdo dependencies you want to use in your maven proj
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j</artifactId>
-	<version>4.6.2</version>
+	<version>4.7.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -39,7 +39,7 @@ H2
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.h2</artifactId>
-	<version>4.6.2</version>
+	<version>4.7.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -50,7 +50,7 @@ MySQL
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.mysql</artifactId>
-	<version>4.6.2</version>
+	<version>4.7.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -61,7 +61,7 @@ PostgreSQL
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.postgresql</artifactId>
-	<version>4.6.2</version>
+	<version>4.7.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -72,7 +72,7 @@ Oracle
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>net4j.oracle</artifactId>
-	<version>4.6.2</version>
+	<version>4.7.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -83,7 +83,7 @@ Oracle
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>cdo.hibernate</artifactId>
-	<version>4.6.2</version>
+	<version>4.7.0</version>
 	<type>pom</type>
 </dependency>
 ```
@@ -94,7 +94,7 @@ Oracle
 <dependency>
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>cdo.mongodb</artifactId>
-	<version>4.6.2</version>
+	<version>4.7.0</version>
 	<type>pom</type>
 </dependency>
 ```
