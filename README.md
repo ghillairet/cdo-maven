@@ -7,7 +7,7 @@ You can find the builds on maven central [here](http://search.maven.org/#search|
 
 ## Usage
 
-You can now use choose which cdo dependencies you want to use in your maven project.
+You can now use choose which cdo dependencies you want to use in your maven project. You can look at an example setup using the embedded repository in the [tests project](https://github.com/ghillairet/cdo-maven/tree/master/cdo-tests).
 
 ### CDO
 
