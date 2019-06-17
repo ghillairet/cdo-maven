@@ -2,12 +2,15 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: CDO
 Bundle-SymbolicName: cdo.p2
-Bundle-Version: 4.6.2
+Bundle-Version: 4.7.0.qualifier
 Require-Bundle: org.eclipse.emf.cdo.net4j,
  org.eclipse.emf.cdo.security,
  org.eclipse.emf.cdo.expressions,
  org.eclipse.emf.cdo.server.embedded,
  org.eclipse.emf.cdo.server,
  org.eclipse.emf.cdo.server.db,
- org.eclipse.emf.cdo.server.net4j
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+ org.eclipse.emf.cdo.server.net4j,
+ org.eclipse.emf.cdo.server.ocl,
+ org.eclipse.emf.cdo.transfer,
+ org.eclipse.emf.cdo.transfer.repository
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
