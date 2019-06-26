@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>net4j.oracle.p2</artifactId>
-    <version>4.7.0-SNAPSHOT</version>
+    <version>4.7.0</version>
     <packaging>eclipse-plugin</packaging>
 
     <parent>
         <groupId>org.eclipselabs</groupId>
         <artifactId>cdo-maven</artifactId>
-        <version>4.7.0-SNAPSHOT</version>
+        <version>4.7.0</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 

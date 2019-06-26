@@ -4,7 +4,7 @@
     <groupId>org.eclipselabs</groupId>
     <artifactId>cdo-maven</artifactId>
     <packaging>pom</packaging>
-    <version>4.7.0-SNAPSHOT</version>
+    <version>4.7.0</version>
 
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -63,49 +63,49 @@
             <dependency>
                 <groupId>org.eclipselabs</groupId>
                 <artifactId>cdo</artifactId>
-                <version>4.7.0-SNAPSHOT</version>
+                <version>4.7.0</version>
                 <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>org.eclipselabs</groupId>
                 <artifactId>cdo.hibernate</artifactId>
-                <version>4.7.0-SNAPSHOT</version>
+                <version>4.7.0</version>
                 <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>org.eclipselabs</groupId>
                 <artifactId>cdo.mongodb</artifactId>
-                <version>4.7.0-SNAPSHOT</version>
+                <version>4.7.0</version>
                 <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>org.eclipselabs</groupId>
                 <artifactId>net4j</artifactId>
-                <version>4.7.0-SNAPSHOT</version>
+                <version>4.7.0</version>
                 <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>org.eclipselabs</groupId>
                 <artifactId>net4j.h2</artifactId>
-                <version>4.7.0-SNAPSHOT</version>
+                <version>4.7.0</version>
                 <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>org.eclipselabs</groupId>
                 <artifactId>net4j.mysql</artifactId>
-                <version>4.7.0-SNAPSHOT</version>
+                <version>4.7.0</version>
                 <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>org.eclipselabs</groupId>
                 <artifactId>net4j.oracle</artifactId>
-                <version>4.7.0-SNAPSHOT</version>
+                <version>4.7.0</version>
                 <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>org.eclipselabs</groupId>
                 <artifactId>net4j.postgresql</artifactId>
-                <version>4.7.0-SNAPSHOT</version>
+                <version>4.7.0</version>
                 <type>pom</type>
             </dependency>
             <dependency>
