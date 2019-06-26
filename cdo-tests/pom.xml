@@ -4,7 +4,7 @@
     <parent>
         <artifactId>cdo-maven</artifactId>
         <groupId>org.eclipselabs</groupId>
-        <version>4.7.0</version>
+        <version>4.7.1-SNAPSHOT</version>
     </parent>
     <packaging>jar</packaging>
     <artifactId>cdo-tests</artifactId>
