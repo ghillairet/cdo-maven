@@ -4,3 +4,5 @@
 target
 *.versionsBackup
 java-gen
+.idea
+*.iml
