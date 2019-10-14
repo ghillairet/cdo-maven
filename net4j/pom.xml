@@ -4,10 +4,10 @@
     <parent>
         <groupId>org.eclipselabs</groupId>
         <artifactId>cdo-maven</artifactId>
-        <version>4.7.2-SNAPSHOT</version>
+        <version>4.7.2</version>
     </parent>
     <artifactId>net4j</artifactId>
-    <version>4.7.2-SNAPSHOT</version>
+    <version>4.7.2</version>
     <packaging>pom</packaging>
 
     <dependencies>
